@@ -1,0 +1,33 @@
+# Ignore common operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+~*
+
+# Ignore editor directories and settings
+.vscode/
+.idea/
+
+# Ignore built files
+dist/
+build/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore node modules
+node_modules/
+
+# Ignore archives and binaries
+*.zip
+*.tar.gz
+*.exe
+*.dll

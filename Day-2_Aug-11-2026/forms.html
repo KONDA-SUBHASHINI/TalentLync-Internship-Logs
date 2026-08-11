@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+<body>
+    <form action="registered.html" method="get">
+        <h1>Form Input Types</h1>
+        <p>This form includes examples of text, textarea, checkbox, radio, select, multiple select, file, number, range, week, month, date, datetime-local, and time controls.</p>
+
+        <label>Text input
+            <input type="text" name="text_input" placeholder="Enter text here">
+        </label>
+        <br><br>
+        <label>Password input
+            <input type="password" name="password_input" placeholder="Enter password">
+        </label>
+        <br><br>
+        <label>Textarea
+            <textarea name="textarea_input" placeholder="Enter a longer message"></textarea>
+        </label>
+        <br><br>
+        <span>Checkbox options</span>
+        <div class="option-row">
+            <label><input type="checkbox" name="feature" value="feature1"> Feature 1</label>
+            <label><input type="checkbox" name="feature" value="feature2"> Feature 2</label>
+            <label><input type="checkbox" name="feature" value="feature3"> Feature 3</label>
+        </div>
+        <br><br>
+        <span>Radio options</span>
+        <div class="option-row">
+            <label><input type="radio" name="choice" value="option1" checked> Option 1</label>
+            <label><input type="radio" name="choice" value="option2"> Option 2</label>
+            <label><input type="radio" name="choice" value="option3"> Option 3</label>
+        </div>
+        <br><br>
+        <label>Select
+            <select name="select_input">
+                <option value="">Choose one</option>
+                <option value="a">Option A</option>
+                <option value="b">Option B</option>
+                <option value="c">Option C</option>
+            </select>
+        </label>
+        <br><br>
+        <label>Multiple select
+            <select name="multiple_select[]" multiple size="4">
+                <option value="item1">Item 1</option>
+                <option value="item2">Item 2</option>
+                <option value="item3">Item 3</option>
+                <option value="item4">Item 4</option>
+            </select>
+        </label>
+        <br><br>
+        <label>File upload
+            <input type="file" name="file_input">
+        </label>
+        <br><br>
+        <label>Number input
+            <input type="number" name="number_input" min="1" max="100" value="10">
+        </label>
+        <br><br>
+        <label>Range input
+            <input type="range" name="range_input" min="0" max="10" value="5">
+        </label>
+        <br><br>
+        <label>Week input
+            <input type="week" name="week_input">
+        </label>
+        <br><br>
+        <label>Month input
+            <input type="month" name="month_input">
+        </label>
+        <br><br>
+        <label>Date input
+            <input type="date" name="date_input">
+        </label>
+        <br><br>
+        <label>Time input
+            <input type="time" name="time_input">
+        </label>
+        <br><br>
+        <label>Datetime-local input
+            <input type="datetime-local" name="datetime_input">
+        </label>
+        <br><br>
+        <input type="submit" value="Submit form">
+    </form>
+</body>
+</html>
