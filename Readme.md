@@ -20,6 +20,8 @@ Day1/
 | Day | Date | Topic | Details |
 |---|---|---|---|
 | Day 1 | 10-Aug-26 | HTML basics | [notes.md](./Day1/notes.md) |
+| Day 1 | 10-Aug-26 | Forms| [notes.md](./Day2/notes.md) |
+| Day 1 | 10-Aug-26 | Simple Website | [notes.md](./Day3/notes.md) |
 
 *(This table will keep growing as the internship progresses — click "notes.md" for that day's full details.)*
 
