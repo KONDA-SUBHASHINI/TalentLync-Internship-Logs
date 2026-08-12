@@ -10,7 +10,7 @@
             border: 2px solid black;
             width: 600px;
             height: 400px;
-            margin-left: 100px;
+            margin-left: 300px;
             margin-top: 100px;
             padding: 20px;
         }
@@ -37,10 +37,11 @@
         <a href="index.html">Home</a>
             <a href="aboutus.html">About Us</a>
             <a href="services.html">Services</a>
-            <a href="subscribe.html">Subscribe with us Form</a>
+            <a href="contact.html">Subscribe with us Form</a>
         </div>
         <div id="contact-form">
-            <form>
+            <h1 style="text-align: center; font-size:40px">Contact Us!!!</h1><br><hr><br>
+            <form action="https://platinitee.com/talentlync/form.php" method="post">
                 <table>
                     <tr>
                         <th><label>User Name</label></th>
@@ -56,10 +57,10 @@
                     </tr>
                     <tr>
                         <th><label>DOB</label></th>
-                        <td>: <input type="date" id="dob" name="dob"></td>
+                        <td>: <input type="date" id="dob" name="dob" max="2026-08-12"></td>
                     </tr>
                     <tr>
-                        <td style="text-align: center;" colspan="2"><button>Contact Us</button></td>
+                        <td style="text-align: center;" colspan="2"><button type="submit">Contact Us</button></td>
                     </tr>
                 </table>
             </form>
