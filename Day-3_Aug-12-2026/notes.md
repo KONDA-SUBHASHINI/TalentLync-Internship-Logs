@@ -1,4 +1,4 @@
-# Notes — Layout Planning (House Analogy) + Day 3 Task
+# Day 3 Notes
 
 ## What I Learned
 Before writing any HTML, plan the page like a house floor plan first.
