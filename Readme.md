@@ -27,6 +27,7 @@ Day1/
 
 ## Tech / Topics Covered So Far
 - HTML
+- Forms
 
 ## Note
 This is a personal learning log, not a production project — code here is for practice and reference.
