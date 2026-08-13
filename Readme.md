@@ -22,6 +22,7 @@ Day1/
 | Day 1 | 10-Aug-26 | HTML basics | [notes.md](./Day-1_Aug-10-2026/notes.md) |
 | Day 2 | 11-Aug-26 | Forms| [notes.md](./Day-2_Aug-11-2026/notes.md) |
 | Day 3 | 12-Aug-26 | Simple Website | [notes.md](./Day-3_Aug-12-2026/notes.md) |
+| Day 4 | 13-Aug-26 | Tables & Lists | [notes.md](./Day-4_Aug-13-2026/notes.md) |
 
 *(This table will keep growing as the internship progresses — click "notes.md" for that day's full details.)*
 
