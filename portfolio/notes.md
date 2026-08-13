@@ -1,1 +1,0 @@
-Without tables we need to store data of 100,  headings like name, rollno,marks for everyone ,if i need to add percentage then i need percentage heading for everyone , so tables came into picture . 
