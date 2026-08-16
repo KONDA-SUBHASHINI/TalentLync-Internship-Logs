@@ -1,0 +1,71 @@
+.form-main{
+    width: 70%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 220px;
+    /* background-color: white; */
+    /* border: 2px solid rgb(188, 187, 187); */
+}
+.personal-info{
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+    color: #4f46e5;
+    gap: 20px;
+}
+.head-num{
+    border: 3px solid #4f46e5;
+    border-radius: 50%;
+    padding:5px 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head-content{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.star{
+    color: red;
+}
+.sub-head-main{
+    display: flex;
+    gap: 40px;
+}
+.label-box{
+    font-size: 20px;
+}
+.input-box{
+    margin-top: 10px;
+    width: 470px;
+    padding: 10px;
+    border: 2px solid #d1d1d1;
+    border-radius: 12px;
+}
+.bio{
+    width: 980px;
+}
+.theme-box{
+    width: 300px;
+}
+.theme-sub{
+    display: flex;
+    gap: 40px;
+}
+.generate-btn{
+    margin-left: 35px;
+    padding: 10px 420px;
+    border: 2px solid #4f46e5;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 12px;
+}
+.generate-btn:hover{
+    border: 2px solid #4f46e5;
+    background-color: #fff;
+    color: #4f46e5;
+}

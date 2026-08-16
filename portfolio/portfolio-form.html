@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <div class="logo-image">
+                PB
+            </div>
+            <div class="logo-text">
+                Portfolio Builder
+            </div>
+        </div>
+        <div class="nav-links">
+            <a class="btn" href="login.html">Logout <img style="width:20px; height:20px" src="./images/logout-icon.png" alt=""></a>
+        </div>
+    </div>
+    <div class="form-main">
+        <input style="margin-left: 20px; width:1030px" type="range">
+        <div class="personal-info">
+            <div class="head">
+                <div class="head-num">
+                    1
+                </div>
+                <div class="head-content">
+                    Personal details
+                </div>
+            </div>
+            <br>
+            <div class="sub-head-main">
+                <div class="sub-1">
+                    <label class="label-box">Full Name <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    <label class="label-box">Email Address <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                </div>
+                <div class="sub-2">
+                    <label class="label-box">Professional title <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    <label class="label-box">Phone number  <span class="star">*</span></label><br>
+                    <input  class="input-box"type="text" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <label class="label-box bio">Bio/ About Me <span class="star">*</span></label><br>
+            <textarea class="input-box bio"  rows="3"  name="" id=""></textarea>        
+        </div>
+        <div class="personal-info">
+            <div class="head">
+                <div class="head-num">
+                    2
+                </div>
+                <div class="head-content">
+                    Academic details
+                </div>
+            </div>
+            <br>
+            <div class="sub-head-main">
+                <div class="sub-1">
+                    <label class="label-box">Degree/ Course <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    <label class="label-box">year of passing<span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                </div>
+                <div class="sub-2">
+                    <label class="label-box">Institution name <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    <label class="label-box">CGPA / percentage  <span class="star">*</span></label><br>
+                    <input  class="input-box"type="text" placeholder="Enter your email" required>
+                </div>
+            </div>
+        </div>
+        <div class="personal-info">
+            <div class="head">
+                <div class="head-num">
+                    3
+                </div>
+                <div class="head-content">
+                    Skills
+                </div>
+            </div>
+            <br>
+            <label class="label-box bio">Your Skills <span class="star">*</span></label><br>
+            <textarea class="input-box bio"  rows="3"  name="" id=""></textarea>        
+        </div>
+        <div class="personal-info">
+            <div class="head">
+                <div class="head-num">
+                    4
+                </div>
+                <div class="head-content">
+                    Projects
+                </div>
+            </div>
+            <br>
+            <div class="sub-head-main">
+                <div class="sub-1">
+                    <label class="label-box">Project title <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    </div>
+                <div class="sub-2">
+                    <label class="label-box">Project link <span class="star">*</span></label><br>
+                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    </div>
+            </div>
+            <label class="label-box bio">Project description    <span class="star">*</span></label><br>
+            <textarea class="input-box bio"  rows="3"  name="" id=""></textarea>        
+        </div>
+        <div class="personal-info">
+            <div class="head">
+                <div class="head-num">
+                    5
+                </div>
+                <div class="head-content">
+                    Theme
+                </div>
+            </div>
+            <br>
+            <div class="sub-head-main">
+                <div class="sub-1 theme-sub">
+                    <input class="input-box theme-box" type="button" value="Light">   
+                    <input class="input-box theme-box" type="button" value="Dark">   
+                    <input class="input-box theme-box" type="button" value="Colorful">    
+                </div>
+            </div>
+        </div>
+        <br>    
+        <div class="generate">
+            <input class="generate-btn" type="submit" value="Generate Portfolio">
+        </div>
+        <br><br><br><br>
+    </div>
+</body>
+</html>
