@@ -1,0 +1,16 @@
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
