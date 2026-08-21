@@ -37,19 +37,19 @@
             <div class="sub-head-main">
                 <div class="sub-1">
                     <label class="label-box">Full Name <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your name" required><br><br>
+                    <input name="name" class="input-box" type="text" placeholder="Enter your name" required minlength="3"><br><br>
                     <label class="label-box">Email Address <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your email" required><br><br>
+                    <input name="email" class="input-box" type="email" placeholder="Enter your email" required><br><br>
                 </div>
                 <div class="sub-2">
-                    <label class="label-box">Professional title <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your Professional Title (e.g., 'Frontend Developer') " required><br><br>
+                    <label  class="label-box">Professional title <span class="star">*</span></label><br>
+                    <input name="title" class="input-box" type="text" placeholder="Enter your Professional Title (e.g., 'Frontend Developer') " required><br><br>
                     <label class="label-box">Phone number  <span class="star">*</span></label><br>
-                    <input  class="input-box"type="text" placeholder="Enter your phone Number   " required>
+                    <input name="phonenumber" class="input-box"type="tel" placeholder="Enter a 10-digit phone Number" required pattern="[0-9]{10}">
                 </div>
             </div>
             <label class="label-box bio">Bio <span class="star">*</span></label><br>
-            <textarea class="input-box bio" placeholder="Enter your bio"  rows="3"  name="" id="" required></textarea>        
+            <textarea name="bio" class="input-box bio" placeholder="Enter your bio"  rows="3" id="" required minlength="20"></textarea>        
         </div>
         <div class="personal-info">
             <div class="head">
@@ -64,15 +64,15 @@
             <div class="sub-head-main">
                 <div class="sub-1">
                     <label class="label-box">Degree/ Course <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your degree" required><br><br>
+                    <input name="degree" class="input-box" type="text" placeholder="Enter your degree" required><br><br>
                     <label class="label-box">year of passing<span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your year of passing" required><br><br>
+                    <input name="passingyear" class="input-box" type="number" placeholder="Enter your year of passing" required min="1900" max="2035"><br><br>
                 </div>
                 <div class="sub-2">
                     <label class="label-box">Institution name <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your institution name" required><br><br>
+                    <input name="institutename" class="input-box" type="text" placeholder="Enter your institution name" required><br><br>
                     <label class="label-box">CGPA / percentage  <span class="star">*</span></label><br>
-                    <input  class="input-box"type="text" placeholder="Enter your cpga/ percentage" required>
+                    <input name="cgpa"  class="input-box" type="number" placeholder="Enter your cpga/ percentage" required min="0" max="100" step="0.01">
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
             </div>
             <br>
             <label class="label-box bio">Your Skills <span class="star">*</span></label><br>
-            <textarea class="input-box bio" placeholder="Enter your skills"  rows="3"  name="" id="" required></textarea>        
+            <textarea name="skills" class="input-box bio" placeholder="Enter your skills"  rows="3"  name="" id="" required></textarea>        
         </div>
         <div class="personal-info">
             <div class="head">
@@ -102,15 +102,15 @@
             <div class="sub-head-main">
                 <div class="sub-1">
                     <label class="label-box">Project title <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your project title" required><br><br>
+                    <input name="projecttitle" class="input-box" type="text" placeholder="Enter your project title" required><br><br>
                     </div>
                 <div class="sub-2">
                     <label class="label-box">Project link <span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your project link(Github, Vercel etc.)" required><br><br>
+                    <input name="projectlink" class="input-box" type="text" placeholder="Enter your project link(Github, Vercel etc.)" required><br><br>
                     </div>
             </div>
             <label class="label-box bio">Project description    <span class="star">*</span></label><br>
-            <textarea class="input-box bio" placeholder="Enter your project description"  rows="3"  name="" id="" required></textarea>        
+            <textarea name="projectdescription" class="input-box bio" placeholder="Enter your project description"  rows="3"  name="" id="" required></textarea>        
         </div>
         <div class="personal-info">
             <div class="head">
@@ -125,15 +125,15 @@
             <div class="sub-head-main">
                 <div class="sub-1">
                     <label class="label-box">Github<span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your github link"><br><br>
+                    <input name="github" class="input-box" type="url" placeholder="Enter your github link" required><br><br>
                     <label class="label-box">Linkedin<span class="star">*</span></label><br>
-                    <input class="input-box" type="text" placeholder="Enter your Linkedin link" required><br><br>
+                    <input name="linkedin" class="input-box" type="url" placeholder="Enter your Linkedin link" required><br><br>
                 </div>
                 <div class="sub-2">
                     <label class="label-box">LeetCode/ Any Platform</label><br>
-                    <input class="input-box" type="text" placeholder="Enter your Leetcode or any platform link"><br><br>
+                    <input name="leetcode" class="input-box" type="url" placeholder="Enter your Leetcode or any platform link"><br><br>
                     <label class="label-box">Portfolio<span class="star">*</span></label><br>
-                    <input  class="input-box"type="text" placeholder="Enter your existing portfolio link" required>
+                    <input name="portfolio"  class="input-box"type="url" placeholder="Enter your existing portfolio link" required>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
             <br>
             <div class="sub-head-main">
                 <div class="sub-1 theme-sub">
-                    <label><input type="radio" name="theme" value="Light">  Light </label>
+                    <label><input type="radio" name="theme" value="Light" required>  Light </label>
                     <label><input type="radio" name="theme" value="Dark">  Dark </label>
                     <label><input type="radio" name="theme" value="Colorful">  Colorful </label> 
                 </div>
@@ -157,7 +157,7 @@
         </div>
         <br>    
         <div class="generate">
-            <input class="generate-btn" type="submit" value="Generate Portfolio">
+            <input name="submitbtn" class="generate-btn" type="submit" value="Generate Portfolio">
         </div>
         <br><br><br><br>
     </div>
