@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+    <input type="button" name="formsubmit" id="formsubmit" onclick="registerformvalidate()" value="Register">
+    <input type="button" name="formclear" id="formclear" onclick="clearlocalstorage()" value="Clear">
+    <p>Data from local storage</p> <input type="button" onclick="fecthlocalstorage()" value="Fetch Data" >
+
+    <p id="result"></p>
+</body>
+<script src="formvalidate.js"></script>
+</html>
